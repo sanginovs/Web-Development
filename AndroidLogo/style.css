@@ -1,0 +1,71 @@
+div{
+  margin: 0; padding: 0;
+}
+div div /*Element Element Selector*/{
+  background: #A4C639;
+  position: relative;
+}
+.android{
+  width: 300px; height: 400px;
+  margin: 100px auto;
+}
+.head{
+  width: 200px;
+  height: 100px;
+  top:32px;
+  border-radius: 110px 110px 0 0;
+}
+.l_eye, .r_eye{
+  width: 20px; height: 20px;
+  background: white;
+  position: absolute; top: 32px;
+  border-radius: 10px;
+}
+.l_eye{
+   left:60px;
+}
+.r_eye{
+  right:60px;
+}
+.r_ant, .l_ant{
+  position: absolute; top: -25px;
+  width: 6px; height: 40px;
+  border-radius: 3px;
+  
+}
+.l_ant{left:50px; /*Set the left edge of the absolute positioned <div> element 50px to the right of the left edge of its nearest positioned ancestor: */
+  transform: rotate(-30deg);}
+.r_ant{right:50px;
+       transform: rotate(30deg);
+}
+
+.body{
+  width: 200px; height: 180px;
+  top: 40px;
+  border-radius: 0 0 25px 25px;
+}
+
+.l_arm, .r_arm{
+  height:150px; width: 40px;
+  position: absolute;
+  border-radius: 40px;
+}
+.l_arm {
+  left:-48px;
+}
+.r_arm{
+  right: -48px;
+}
+.l_leg, .r_leg{
+  height: 70px; width: 45px;
+  position: absolute;
+  top: 180px;
+  border-radius: 0 0 20px 20px;
+}
+
+.l_leg{
+  left: 40px;
+}
+.r_leg{
+  right: 40px;  
+}
